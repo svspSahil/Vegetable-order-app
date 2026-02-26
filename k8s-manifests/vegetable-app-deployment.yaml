@@ -23,11 +23,11 @@ spec:
           - name: MONGODB_URI
             valueFrom:
               configMapKeyRef:
-                name: configmap
+                name: veg-app-config
                 key: MONGODB_URI
           - name: PORT
             valueFrom:
               configMapKeyRef:
-                name: configmap
+                name: veg-app-config
                 key: PORT
 
