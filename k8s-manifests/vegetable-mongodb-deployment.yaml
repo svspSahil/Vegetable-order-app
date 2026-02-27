@@ -4,7 +4,7 @@ metadata:
   name: veg-mongodb
   namespace: sahil-ns
 spec:
-  replicas: 3
+  replicas: 2
   serviceName: "mongodb"
   selector:
     matchLabels:
